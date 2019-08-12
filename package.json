@@ -3,6 +3,7 @@
 	"displayName": "pdf-parser-manual-edit",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "faiza-deepzen",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
