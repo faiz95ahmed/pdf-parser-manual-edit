@@ -10,15 +10,37 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.poiLoad",
+		"onCommand:extension.poiCycle",
+		"onCommand:extension.poiNext",
+		"onCommand:extension.poiPrev"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
+		"keybindings": [{
+			"command": "extension.poiLoad",
+			"key": "ctrl+f1",
+			"mac": "cmd+f1",
+			"when": "editorTextFocus"
+		},
+		{
+			"command": "extension.poiCycle",
+			"key": "ctrl+f2",
+			"mac": "cmd+f2",
+			"when": "editorTextFocus"
+		},
+		{
+			"command": "extension.poiNext",
+			"key": "ctrl+f3",
+			"mac": "cmd+f3",
+			"when": "editorTextFocus"
+		},
+		{
+			"command": "extension.poiPrev",
+			"key": "ctrl+f4",
+			"mac": "cmd+f4",
+			"when": "editorTextFocus"
+		}
 		]
 	},
 	"scripts": {
