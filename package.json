@@ -2,8 +2,12 @@
 	"name": "pdf-parser-manual-edit",
 	"displayName": "pdf-parser-manual-edit",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "faiza-deepzen",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/faiz95ahmed/pdf-parser-manual-edit.git"
+	  },
 	"engines": {
 		"vscode": "^1.37.0"
 	},
